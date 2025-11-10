@@ -1,75 +1,76 @@
 # 🏦 Agência Bancária em Java
 
-Este é um projeto simples de **Agência Bancária** desenvolvido em **Java puro**, ideal para quem está começando no mundo da programação orientada a objetos.  
-Aqui você encontra um sistema funcional que roda direto no terminal, permitindo criar contas, movimentar saldo e visualizar informações de clientes.
+Este é um projeto simples de **Agência Bancária** desenvolvido em **Java puro**, ideal para quem está iniciando em programação orientada a objetos e deseja praticar lógica, classes, listas e entrada de dados no terminal.  
+O sistema simula operações bancárias básicas de forma simples e funcional.
 
 ---
 
 ## ✅ Funcionalidades
 
-Ao iniciar o sistema, você verá o seguinte menu:
+Ao iniciar o programa, o seguinte menu será exibido:
 
+```
+------------------------------------------------------
 ------------- Bem vindos a nossa Agência -------------
+------------------------------------------------------
 ***** Selecione uma operação que deseja realizar *****
-
-| Opção 1 - Criar conta |
-| Opção 2 - Depositar |
-| Opção 3 - Sacar |
-| Opção 4 - Transferir |
-| Opção 5 - Listar contas |
-| Opção 6 - Sair |
-
-
-### O que cada opção faz:
-
-**1. Criar conta**  
-Cria uma nova conta bancária com nome, CPF e saldo inicial.
-
-**2. Depositar**  
-Permite escolher uma conta existente e adicionar um valor ao saldo.
-
-**3. Sacar**  
-Remove um valor do saldo da conta, caso haja saldo suficiente.
-
-**4. Transferir**  
-Transfere dinheiro entre duas contas cadastradas.
-
-**5. Listar contas**  
-Exibe dadios sobre a sua conta, numero, nome, cpf, email e saldo
-
-**6. Sair**  
-Encerra o programa.
+------------------------------------------------------
+|   Opção 1 - Criar conta   |
+|   Opção 2 - Depositar     |
+|   Opção 3 - Sacar         |
+|   Opção 4 - Transferir    |
+|   Opção 5 - Listar contas |
+|   Opção 6 - Sair          |
+```
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-- Java 16+  
+- Java 8 ou superior  
 - Programação Orientada a Objetos  
 - Scanner para entrada de dados  
 - ArrayList para armazenamento das contas  
 
 ---
 
-## ▶️ Como executar
+## ▶️ Como executar o projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+Siga os passos abaixo para rodar a aplicação:
 
+### 1. Clone o repositório
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+```
 
-   
+### 2. Acesse a pasta do projeto
+```bash
+cd NOME_DA_PASTA
+```
 
-📚 Objetivo do projeto
+### 3. Compile todos os arquivos Java
+Certifique-se de que todos os arquivos `.java` estão na mesma pasta ou configurados corretamente com pacotes.
 
-Este projeto foi criado para fins de estudo, praticando:
+```bash
+javac *.java
+```
 
-Estruturas básicas em Java
+### 4. Execute o sistema
+```bash
+java Main
+```
 
-Classes e objetos
+---
 
-Manipulação de listas
+## 🎯 Objetivo do projeto
 
-Entrada de dados
+O objetivo deste projeto é:
 
-Simulação de operações bancárias
+- Praticar conceitos fundamentais de Java  
+- Desenvolver lógica aplicada a operações bancárias reais  
+- Trabalhar com classes, métodos, atributos e listas  
+- Aprender a estruturar um sistema simples, modular e funcional  
+- Fortalecer o entendimento de POO e entrada de dados  
+- Servir como base para evoluções futuras  
+
+---
