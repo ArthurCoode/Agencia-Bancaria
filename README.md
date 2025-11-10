@@ -40,12 +40,12 @@ Siga os passos abaixo para rodar a aplicação:
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+git clone https://github.com/ArthurCoode/Agencia-Bancaria.git
 ```
 
 ### 2. Acesse a pasta do projeto
 ```bash
-cd NOME_DA_PASTA
+cd Agencia-Bancaria
 ```
 
 ### 3. Compile todos os arquivos Java
