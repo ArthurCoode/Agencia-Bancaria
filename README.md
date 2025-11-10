@@ -27,7 +27,7 @@ Ao iniciar o programa, o seguinte menu será exibido:
 
 ## 🛠️ Tecnologias utilizadas
 
-- Java 8 ou superior  
+- Java 16
 - Programação Orientada a Objetos  
 - Scanner para entrada de dados  
 - ArrayList para armazenamento das contas  
